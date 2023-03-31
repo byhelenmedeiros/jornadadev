@@ -9,13 +9,16 @@ function VideoSidebar() {
   return (
     <div className='videoSidebar'>
         <div className='videoSidebar__options'>
-            <p>icon</p><p>numero</p>
+            <FavoriteBorderIcon />
+            <p>147</p>
         </div>
         <div className='videoSidebar__options'>
-            <p>icon</p><p>numero</p>
+            <ChatIcon />
+            <p>82</p>
         </div>
         <div className='videoSidebar__options'>
-            <p>icon</p><p>numero</p>
+            <ShareIcon />
+            <p>91</p>
         </div>
     </div>
   )
