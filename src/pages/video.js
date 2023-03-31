@@ -30,6 +30,9 @@ function Video() {
         >
 
         </video>
+    {/* side bar*/}
+    {/* footer*/}
+
     </div>
   )
 }
