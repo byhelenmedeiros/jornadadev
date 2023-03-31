@@ -3,7 +3,17 @@ import "./videoSidebar.css"
 
 function VideoSidebar() {
   return (
-    <div>VideoSidebar</div>
+    <div className='videoSidebar'>
+        <div className='videoSidebar__options'>
+            <p>icon</p><p>numero</p>
+        </div>
+        <div className='videoSidebar__options'>
+            <p>icon</p><p>numero</p>
+        </div>
+        <div className='videoSidebar__options'>
+            <p>icon</p><p>numero</p>
+        </div>
+    </div>
   )
 }
 
