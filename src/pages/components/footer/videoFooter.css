@@ -11,6 +11,15 @@
 .videoFooter__music{
     display: flex;
 }
+
+.videoFootermusic__text{
+   width: 80%;
+   overflow-x: hidden ;
+}
+.videoFootermusic__text p{
+    animation: moveTheText 5s infinite linear;
+
+}
 .videoFooter__record{
     position: absolute;
     bottom: 5px;
@@ -21,13 +30,24 @@
     
 }
 
+/*animations*/
+
 @keyframes spinTheRecord {
     0%{
         transform: rotate(0deg);
 
     }100%{
         transform: rotate(360deg);
+    }   
+}
+
+@keyframes moveTheText {
+    0%{
+        transform: translateX(100%);
+    }100%{
+        transform: translateX(-100%);
 
     }
     
 }
+
