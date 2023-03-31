@@ -9,15 +9,15 @@ function VideoSidebar() {
   return (
     <div className='videoSidebar'>
         <div className='videoSidebar__options'>
-            <FavoriteBorderIcon />
+            <FavoriteBorderIcon fontSize='large'/>
             <p>147</p>
         </div>
         <div className='videoSidebar__options'>
-            <ChatIcon />
+            <ChatIcon  fontSize='large'/>
             <p>82</p>
         </div>
         <div className='videoSidebar__options'>
-            <ShareIcon />
+            <ShareIcon  fontSize='large'/>
             <p>91</p>
         </div>
     </div>
