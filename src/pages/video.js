@@ -40,6 +40,9 @@ function Video({likes, messages, shares, name, description, music}) {
     />
     {/* footer*/}
     <VideoFooter />
+        name={name}
+        description={description}
+        music={music}
 
     </div>
   )
