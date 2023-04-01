@@ -3,7 +3,7 @@ import "./video.css"
 import VideoFooter from './components/footer/VideoFooter'
 import VideoSidebar from './components/sidebar/VideoSidebar'
 
-function Video() {
+function Video({likes, messages, shares}) {
     const videoRef = useRef(null)
     const [play, setplay] = useState(false)
 
@@ -33,7 +33,11 @@ function Video() {
 
         </video>
     {/* side bar*/}
-    <VideoSidebar />
+    <VideoSidebar
+        likes={likes}
+        messages={messages}
+        shares={shares}
+    />
     {/* footer*/}
     <VideoFooter />
 

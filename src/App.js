@@ -7,7 +7,11 @@ function App() {
     <div className="App">
       <div className='app__videos'>
        
-       <Video />
+       <Video 
+       likes={5}
+       messages={54}
+       shares={52}
+       />
        <Video />
        <Video />
        <Video />
