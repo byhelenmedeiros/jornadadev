@@ -39,11 +39,11 @@ function Video({likes, messages, shares, name, description, music}) {
         shares={shares}
     />
     {/* footer*/}
-    <VideoFooter />
+    <VideoFooter
         name={name}
         description={description}
         music={music}
-
+    />
     </div>
   )
 }
