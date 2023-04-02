@@ -1,6 +1,7 @@
 
 import './App.css';
 import Video from "./pages/video";
+import db from "./config/firebase"
 
 function App() {
   return (

@@ -1,9 +1,10 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
+import { getFirestore } from "firebase/firestore/lite";
 
-// Your web app's Firebase configuration
+
+
+
 const firebaseConfig = {
   apiKey: "AIzaSyDNA3uf0toDSpXMyBXA0mBDg2XpC_iCcr0",
   authDomain: "tiktok-clone-5b239.firebaseapp.com",
@@ -15,3 +16,6 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
+const db = getFirestore(app);
+
+export default db;
